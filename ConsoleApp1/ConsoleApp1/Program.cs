@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Vasil");
 
-string[] a = { "Alex", "Vasil" };
+string[] a = { "Alex", "Vasil", "Mihaela", "Rumqn", "Svetla" };
 
 string GetName(string[] array)
 {
@@ -12,7 +12,8 @@ string GetName(string[] array)
         }
     }
 
-    return "Nqma";
+    return "Name not found!";
 }
 
 Console.WriteLine(GetName(a));
+Console.WriteLine("Program terminated!");
