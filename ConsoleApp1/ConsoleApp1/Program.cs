@@ -1,9 +1,9 @@
-﻿Console.WriteLine("Vasil");
-
-string[] a = { "Alex", "Vasil", "Mihaela", "Rumqn", "Svetla" };
+﻿string[] a = { "Alex", "Vasil", "Mihaela", "Rumqn", "Svetla" };
 
 string GetName(string[] array)
 {
+    Console.WriteLine("Program started...");
+
     foreach (var name in array)
     {
         if (name == "Vasil")
